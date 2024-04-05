@@ -1,0 +1,72 @@
+/* Navbar Section */
+.left {
+    display: inline-block;
+    /* border: 2px solid green; */
+    position: absolute;
+    left: 59px;
+    top: 20px;
+
+}
+
+.left img {
+    width: 62px;
+    filter: invert(100%);
+}
+
+.left div {
+    text-align: center;
+    filter: invert(100%);
+}
+
+.mid {
+    /* border: 2px solid red; */
+    display: block;
+    margin: 20px auto;
+    width: 40%;
+    
+}
+
+.right {
+    /* boder: 2px sorlid yellow; */
+    position: absolute;
+    display: inline-block;
+    right: 42px;
+    top: 34px;
+}
+.btn {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(167, 165, 165);
+}
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: grey;
+
+}
+
